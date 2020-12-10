@@ -24,7 +24,7 @@
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
             <span class="d-block d-lg-none">Sofia Pigino</span>
             <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
-                    src="assets/img/profile.JPG" alt="profile picture" /></span>
+                    src="assets/img/profile.jpg" alt="profile picture" /></span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
@@ -109,12 +109,18 @@
                 <h2 class="mb-5">Skills</h2>
                 <div class="subheading mb-3">Programming Languages & Tools (Basic)</div>
                 <ul class="list-inline dev-icons">
-                    <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-python"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-java"></i></li>
+                    <li class="list-inline-item" data-toggle="tooltip" data-placement="bottom" title="HTML5"><i
+                            class="fab fa-html5"></i></li>
+                    <li class="list-inline-item" data-toggle="tooltip" data-placement="bottom" title="CSS"><i
+                            class="fab fa-css3-alt"></i></li>
+                    <li class="list-inline-item" data-toggle="tooltip" data-placement="bottom" title="JavaScript"><i
+                            class="fab fa-js-square"></i></li>
+                    <li class="list-inline-item" data-toggle="tooltip" data-placement="bottom" title="Angular"><i
+                            class="fab fa-angular"></i></li>
+                    <li class="list-inline-item" data-toggle="tooltip" data-placement="bottom" title="Python"><i
+                            class="fab fa-python"></i></li>
+                    <li class="list-inline-item" data-toggle="tooltip" data-placement="bottom" title="JAVA"><i
+                            class="fab fa-java"></i></li>
                 </ul>
                 <div class="subheading mb-3">Workflow</div>
                 <ul class="fa-ul mb-0">
@@ -138,59 +144,213 @@
         <section class="resume-section" id="portfolio">
             <div class="resume-section-content">
                 <h2 class="mb-5">Portfolio</h2>
+                <!-- Portfolio 1-->
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
                         <h3 class="mb-0">Deliver Eat!</h3>
                         <p>Developed for the subject "Software Engineering" with my work group.</p>
-                        <p>The task was to implement a specific User Story using a programming language chosen by the group. The purpose was to become familiar with the 
-                            concepts of agile requirements and in particular with User Stories in conjunction with the application of the corresponding 
-                            SCM activities.</p>
                         <div class="subheading mb-3">PROGRAMMING LANGUAGES & TOOLS</div>
                         <ul class="list-inline dev-icons">
-                            <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                            <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                            <li class="list-inline-item"><i class="fab fa-bootstrap"></i></li>
+                            <li class="list-inline-item" data-toggle="tooltip" data-placement="bottom" title="HTML5"><i
+                                    class="fab fa-html5"></i></li>
+                            <li class="list-inline-item" data-toggle="tooltip" data-placement="bottom" title="Angular">
+                                <i class="fab fa-angular"></i></li>
+                            <li class="list-inline-item" data-toggle="tooltip" data-placement="bottom"
+                                title="Bootstrap"><i class="fab fa-bootstrap"></i></li>
                         </ul>
                         <a name="GoDeliverEat" id="GoDeliverEat" class="btn btn-primary"
                             href="https://isw-deliver-eat.stackblitz.io/" role="button">Visit the site</a>
                         <a name="GithubDeliverEat" id="GithubDeliverEat" class="btn btn-primary"
                             href="https://github.com/sofiapigino/DeliverEat" role="button">Github</a>
+                        <a name="MoreInfoDeliverEat" id="MoreInfoDeliverEat" class="btn btn-primary" href="#"
+                            role="button" data-toggle="modal" data-target="#portfolioModal1">More Info</a>
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">September 2020</span></div>
                 </div>
+                <!-- Portfolio 2-->
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
                         <h3 class="mb-0">Pymes 2020</h3>
                         <p>Developed for the subject "Visual Application Programming" with my work group.</p>
                         <div class="subheading mb-3">PROGRAMMING LANGUAGES & TOOLS</div>
                         <ul class="list-inline dev-icons">
-                            <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                            <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                            <li class="list-inline-item"><i class="fab fa-bootstrap"></i></li>
+                            <li class="list-inline-item" data-toggle="tooltip" data-placement="bottom" title="HTML5"><i
+                                    class="fab fa-html5"></i></li>
+                            <li class="list-inline-item" data-toggle="tooltip" data-placement="bottom" title="Angular">
+                                <i class="fab fa-angular"></i></li>
+                            <li class="list-inline-item" data-toggle="tooltip" data-placement="bottom"
+                                title="Bootstrap"><i class="fab fa-bootstrap"></i></li>
                         </ul>
                         <a name="GoPymes2020" id="GoPymes2020" class="btn btn-primary"
                             href="https://pav-pymes2020.stackblitz.io/" role="button">Visit the site</a>
                         <a name="GithubPymes2020" id="GithubPymes2020" class="btn btn-primary"
                             href="https://github.com/sofiapigino/Pymes2020" role="button">Github</a>
+                        <a name="MoreInfoPymes2020" id="MoreInfoPymes2020" class="btn btn-primary" href="#"
+                            role="button" data-toggle="modal" data-target="#portfolioModal2">More Info</a>
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">June 2020</span></div>
                 </div>
+                <!-- Portfolio 3-->
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
                         <h3 class="mb-0">Emergency Room</h3>
                         <p>Developed for the subject "Simulation" as a final project - Queuing Theory.</p>
                         <div class="subheading mb-3">PROGRAMMING LANGUAGES & TOOLS</div>
                         <ul class="list-inline dev-icons">
-                            <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                            <li class="list-inline-item"><i class="fab fa-java"></i></li>
+                            <li class="list-inline-item" data-toggle="tooltip" data-placement="bottom" title="HTML5"><i
+                                    class="fab fa-html5"></i></li>
+                            <li class="list-inline-item" data-toggle="tooltip" data-placement="bottom" title="JAVA"><i
+                                    class="fab fa-java"></i></li>
                         </ul>
                         <a name="GithubEmergencyRoom" id="GithubEmergencyRoom" class="btn btn-primary"
                             href="https://github.com/sofiapigino/EmergencyRoom" role="button">Github</a>
+                        <a name="MoreInfoEmergencyRoom" id="MoreInfoEmergencyRoom" class="btn btn-primary" href="#"
+                            role="button" data-toggle="modal" data-target="#portfolioModal3">More Info</a>
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">June 2020</span></div>
                 </div>
             </div>
         </section>
+    </div>
+    <!-- Portfolio Modals-->
+    <!-- Portfolio Modal 1-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                    id="portfolioModal1Label">Deliver Eat!</h2>
+                                <!-- Portfolio Modal - Table-->
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td scope="row"><b>Task</b></td>
+                                            <td>The task was to implement a specific User Story using a programming
+                                                language chosen by the group.</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row"><b>Purpose</b></td>
+                                            <td>The purpose was to become familiar with the concepts of agile
+                                                requirements and in particular with User Stories in conjunction with the
+                                                application of the corresponding SCM activities.</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row"><b>Scope</b></td>
+                                            <td>Academic.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <button class="btn btn-primary" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 2-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                    id="portfolioModal2Label">Pymes 2020</h2>
+                                <!-- Portfolio Modal - Table-->
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td scope="row"><b>Task</b></td>
+                                            <td>The task was to develop a web application throughout the course of the
+                                                subject.</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row"><b>Purpose</b></td>
+                                            <td>The purpose was to get familiar with Visual Studio, Web Application with
+                                                WebApi2, EntityFramework 6, multiple layers in C # for the BackEnd and
+                                                Visual Code, Single Page Application, HTML, CSS, Bootstrap, Angular for
+                                                the FrontEnd</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row"><b>Scope</b></td>
+                                            <td>Academic.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <button class="btn btn-primary" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 3-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                    id="portfolioModal3Label">Emergency Room</h2>
+                                <!-- Portfolio Modal - Table-->
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td scope="row"><b>Task</b></td>
+                                            <td>The task was to define objects, states, events, distributions,
+                                                queues, counters, accumulators and answer the questions that the
+                                                exercise asks.</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row"><b>Purpose</b></td>
+                                            <td>The purpose was to apply the knowledge acquired on the Queuing Theory to
+                                                a particular case.</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row"><b>Scope</b></td>
+                                            <td>Academic.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <button class="btn btn-primary" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
