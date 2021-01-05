@@ -1,15 +1,4 @@
 @charset "UTF-8";
-/*!
-* Start Bootstrap - Resume v6.0.2 (https://startbootstrap.com/theme/resume)
-* Copyright 2013-2020 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap v4.5.3 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -111,6 +100,10 @@ ul,
 dl {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+li {
+  list-style:none
 }
 
 ol ol,
@@ -4651,6 +4644,7 @@ input[type=button].btn-block {
   font-size: 75%;
   font-weight: 700;
   line-height: 1;
+  color: white;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
