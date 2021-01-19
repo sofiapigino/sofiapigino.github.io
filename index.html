@@ -188,6 +188,27 @@
                 <!-- Portfolio 2-->
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
+                        <h3 class="mb-0">Twitter Bot</h3>
+                        <p>Twitter bot developed with Python, Tweepy and REST Countries.</p>
+                        <div class="subheading mb-3">PROGRAMMING LANGUAGES & TOOLS</div>
+                        <ul class="list-inline dev-icons">
+                            <li class="list-inline-item" data-toggle="tooltip" data-placement="bottom" title="Python"><i
+                                    class="fab fa-python"></i>
+                            </li>
+                        </ul>
+                        <a name="GoTwitterBot" id="GoTwitterBot" class="btn btn-primary"
+                            href="https://twitter.com/infocountry_bot" role="button" target=”_blank”>Twitter</a>
+                        <a name="GithubTwitterBot" id="GithubTwitterBot" class="btn btn-primary"
+                            href="https://github.com/sofiapigino/Country-Info-Bot" role="button"
+                            target=”_blank”>Github</a>
+                        <a name="MoreInfoTwitterBot" id="MoreInfoTwitterBot" class="btn btn-primary" href="#"
+                            role="button" data-toggle="modal" data-target="#portfolioModal2">More Info</a>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">January 2021</span></div>
+                </div>
+                <!-- Portfolio 3-->
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
                         <h3 class="mb-0">Deliver Eat!</h3>
                         <p>Developed for the subject "Software Engineering" with my work group.</p>
                         <div class="subheading mb-3">PROGRAMMING LANGUAGES & TOOLS</div>
@@ -206,11 +227,11 @@
                         <a name="GithubDeliverEat" id="GithubDeliverEat" class="btn btn-primary"
                             href="https://github.com/sofiapigino/DeliverEat" role="button" target=”_blank”>Github</a>
                         <a name="MoreInfoDeliverEat" id="MoreInfoDeliverEat" class="btn btn-primary" href="#"
-                            role="button" data-toggle="modal" data-target="#portfolioModal2">More Info</a>
+                            role="button" data-toggle="modal" data-target="#portfolioModal3">More Info</a>
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">September 2020</span></div>
                 </div>
-                <!-- Portfolio 3-->
+                <!-- Portfolio 4-->
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
                         <h3 class="mb-0">Pymes 2020</h3>
@@ -230,11 +251,11 @@
                         <a name="GithubPymes2020" id="GithubPymes2020" class="btn btn-primary"
                             href="https://github.com/sofiapigino/Pymes2020" role="button" target=”_blank”>Github</a>
                         <a name="MoreInfoPymes2020" id="MoreInfoPymes2020" class="btn btn-primary" href="#"
-                            role="button" data-toggle="modal" data-target="#portfolioModal3">More Info</a>
+                            role="button" data-toggle="modal" data-target="#portfolioModal4">More Info</a>
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">June 2020</span></div>
                 </div>
-                <!-- Portfolio 4-->
+                <!-- Portfolio 5-->
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
                         <h3 class="mb-0">Emergency Room</h3>
@@ -249,7 +270,7 @@
                         <a name="GithubEmergencyRoom" id="GithubEmergencyRoom" class="btn btn-primary"
                             href="https://github.com/sofiapigino/EmergencyRoom" role="button" target=”_blank”>Github</a>
                         <a name="MoreInfoEmergencyRoom" id="MoreInfoEmergencyRoom" class="btn btn-primary" href="#"
-                            role="button" data-toggle="modal" data-target="#portfolioModal4">More Info</a>
+                            role="button" data-toggle="modal" data-target="#portfolioModal5">More Info</a>
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">June 2020</span></div>
                 </div>
@@ -317,7 +338,59 @@
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
                                 <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                                    id="portfolioModal1Label">Deliver Eat!</h2>
+                                    id="portfolioModal1Label">Twitter Bot</h2>
+                                <!-- Portfolio Modal - Table-->
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td scope="row"><b>Task</b></td>
+                                            <td>Twitter bot that answers with data about the country that is asked for.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row"><b>Description</b></td>
+                                            <td>To do this, a Twitter developer account is used through which the API
+                                                keys and Token are obtained.
+                                                The <strong>Tweepy</strong> library provides access to all the methods
+                                                of the Twitter RESTful API.
+                                                To obtain the data of all the countries, the <strong>API REST
+                                                    Countries</strong> is used.
+                                                To keep the bash console running constantly, <strong>Python
+                                                    Anywhere</strong> is used (although there are times when the service
+                                                crashes).
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row"><b>Format</b></td>
+                                            <td>The format required for it to work is "#info country name". For example,
+                                                #info Argentina.
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <button class="btn btn-primary" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 3-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                    id="portfolioModal3Label">Deliver Eat!</h2>
                                 <!-- Portfolio Modal - Table-->
                                 <table class="table">
                                     <tbody>
@@ -349,9 +422,9 @@
             </div>
         </div>
     </div>
-    <!-- Portfolio Modal 2-->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog"
-        aria-labelledby="portfolioModal3Label" aria-hidden="true">
+    <!-- Portfolio Modal 4-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModal4Label" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
                 <div class="modal-body text-center">
@@ -360,7 +433,7 @@
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
                                 <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                                    id="portfolioModal2Label">Pymes 2020</h2>
+                                    id="portfolioModal4Label">Pymes 2020</h2>
                                 <!-- Portfolio Modal - Table-->
                                 <table class="table">
                                     <tbody>
@@ -393,9 +466,9 @@
             </div>
         </div>
     </div>
-    <!-- Portfolio Modal 3-->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog"
-        aria-labelledby="portfolioModal4Label" aria-hidden="true">
+    <!-- Portfolio Modal 5-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModal5Label" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
                 <div class="modal-body text-center">
@@ -404,7 +477,7 @@
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
                                 <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                                    id="portfolioModal3Label">Emergency Room</h2>
+                                    id="portfolioModal5Label">Emergency Room</h2>
                                 <!-- Portfolio Modal - Table-->
                                 <table class="table">
                                     <tbody>
