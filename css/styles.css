@@ -10186,3 +10186,8 @@ section.resume-section .resume-section-content {
 .table{
   margin-top: 2rem;
 }
+
+.footer{
+  float: right;
+  margin: 1%;
+}
